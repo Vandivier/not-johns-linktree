@@ -1,0 +1,9 @@
+.social-list-wrapper {
+  display: flex;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.social-list-wrapper li {
+  list-style: none;
+}

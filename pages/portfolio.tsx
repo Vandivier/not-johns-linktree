@@ -2,14 +2,12 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 
-import { Socials } from "../components/Socials";
-
 import styles from "../styles/Home.module.css";
 
 const PortfolioPage: NextPage = () => (
   <div className={styles.container}>
     <Head>
-      <title>My Portfolio</title>
+      <title>John Vandivier Portfolio</title>
       <meta
         name="description"
         content="A portfolio of software developer work."

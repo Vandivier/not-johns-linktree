@@ -23,16 +23,6 @@ const HomePage: NextPage = () => (
       <Socials />
 
       <div className={styles.grid}>
-        {/* <a
-          href="https://www.linkedin.com/in/john-vandivier"
-          className={styles.card}
-          rel="noreferrer"
-          target="_blank"
-        >
-          <h2>LinkedIn</h2>
-          <p>Connect with me professionally and learn about my background.</p>
-        </a> */}
-
         <a
           href="https://codinglife-store.myshopify.com/"
           className={styles.card}
