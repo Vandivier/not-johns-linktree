@@ -32,7 +32,7 @@ export const Socials = () => (
     </li>
     <li>
       <StyledSocialIcon
-        url="https://www.tiktok.com./@johnvandivier"
+        url="https://www.tiktok.com/@johnvandivier"
         target="_blank"
       />
     </li>
