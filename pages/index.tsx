@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 
 import { Socials } from "../components/Socials";
 
@@ -49,15 +50,12 @@ const HomePage: NextPage = () => (
           </p>
         </a>
 
-        <a
-          href="/portfolio"
-          className={styles.card}
-          rel="noreferrer"
-          target="_self"
-        >
-          <h2>Portfolio</h2>
-          <p>Immerse yourself in my wonderous works of code.</p>
-        </a>
+        <Link href="/portfolio" passHref>
+          <div className={styles.card}>
+            <h2>Portfolio</h2>
+            <p>Immerse yourself in my wonderous works of code.</p>
+          </div>
+        </Link>
 
         <a
           href="https://www.afterecon.com/"
