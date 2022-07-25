@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
 
 import styles from "../styles/Home.module.css";
 
@@ -18,18 +17,15 @@ const PortfolioPage: NextPage = () => (
     <main className={styles.main}>
       <h1 className={styles.title}>John Vandivier</h1>
       <p className={styles.description}>A Portfolio</p>
-      <Link href="/" passHref>
-        <p
-          style={{
-            cursor: "pointer",
-            fontSize: "1.25rem",
-            margin: 0,
-            textDecoration: "underline",
-          }}
-        >
-          Contact Information and Social Media
-        </p>
-      </Link>
+      <a
+        href="https://vandivier.github.io/not-johns-linktree/"
+        style={{
+          fontSize: "1.25rem",
+          textDecoration: "underline",
+        }}
+      >
+        Contact Information and Social Media
+      </a>
 
       <div className={styles.grid}>
         <a
