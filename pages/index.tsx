@@ -13,7 +13,7 @@ const HomePage: NextPage = () => (
         name="description"
         content="A collection of links related to John Vandivier."
       />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/not-johns-linktree/favicon.png" />
     </Head>
 
     <main className={styles.main}>

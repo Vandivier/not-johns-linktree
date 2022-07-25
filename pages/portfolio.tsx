@@ -11,7 +11,7 @@ const PortfolioPage: NextPage = () => (
         name="description"
         content="A portfolio of software developer work."
       />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/not-johns-linktree/favicon.png" />
     </Head>
 
     <main className={styles.main}>
