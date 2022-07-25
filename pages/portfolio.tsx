@@ -39,15 +39,15 @@ const PortfolioPage: NextPage = () => (
         </a>
 
         <a
-          href="https://github.com/Vandivier/basic-nextjs-portfolio/"
+          href="https://github.com/Vandivier/not-johns-linktree/"
           className={styles.card}
           rel="noreferrer"
           target="_blank"
         >
-          <h2>Basic Next Portfolio</h2>
+          <h2>Social Home Template</h2>
           <p>
-            Steal this site! Build your own portfolio or other link collection
-            site with this open source template!
+            Steal this site! Build a social home, portfolio, or other site with
+            this open source template!
           </p>
         </a>
 
