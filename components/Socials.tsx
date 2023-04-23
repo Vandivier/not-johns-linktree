@@ -10,49 +10,25 @@ const StyledSocialIcon: FunctionComponent<SocialIconProps> = (props) => (
   />
 );
 
+const orderedSocials = [
+  "https://www.youtube.com/c/JohnVandivier",
+  "https://www.tiktok.com/@johnvandivier",
+  "https://twitter.com/johnvandivier",
+  "https://mastodon.online/@johnvandivier",
+  "https://twitch.tv/johnvandivier",
+  "https://discord.gg/fAg6Xa4uxc",
+  "https://www.instagram.com/vandivi3r/",
+  "https://github.com/Vandivier",
+  "https://www.linkedin.com/in/john-vandivier",
+  "mailto:john@ladderly.io",
+];
+
 export const Socials = () => (
   <ul className={styles["social-list-wrapper"]}>
-    <li>
-      <StyledSocialIcon
-        url="https://twitter.com/johnvandivier"
-        target="_blank"
-      />
-    </li>
-    <li>
-      <StyledSocialIcon
-        url="https://www.youtube.com/c/JohnVandivier"
-        target="_blank"
-      />
-    </li>
-    <li>
-      <StyledSocialIcon
-        url="https://www.linkedin.com/in/john-vandivier"
-        target="_blank"
-      />
-    </li>
-    <li>
-      <StyledSocialIcon
-        url="https://www.tiktok.com/@johnvandivier"
-        target="_blank"
-      />
-    </li>
-    <li>
-      <StyledSocialIcon url="https://github.com/Vandivier" target="_blank" />
-    </li>
-    <li>
-      <StyledSocialIcon
-        url="https://www.instagram.com/vandivi3r/"
-        target="_blank"
-      />
-    </li>
-    <li>
-      <StyledSocialIcon url="https://twitch.tv/johnvandivier" target="_blank" />
-    </li>
-    <li>
-      <StyledSocialIcon url="https://discord.gg/fAg6Xa4uxc" target="_blank" />
-    </li>
-    <li>
-      <StyledSocialIcon url="mailto:john@ladderly.io" target="_blank" />
-    </li>
+    {orderedSocials.map((url) => (
+      <li>
+        <StyledSocialIcon key={url} url={url} target="_blank" />
+      </li>
+    ))}
   </ul>
 );
