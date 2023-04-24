@@ -3,8 +3,8 @@ import { SocialIcon, SocialIconProps } from "react-social-icons";
 
 import React from "react";
 import styles from "./Socials.module.css";
-import { Mastodon } from "./icons/Mastadon";
-import { Substack } from "./icons/Substack";
+import { Mastodon } from "../icons/Mastadon";
+import { Substack } from "../icons/Substack";
 
 type CustomIconData = {
   backgroundColor: string;

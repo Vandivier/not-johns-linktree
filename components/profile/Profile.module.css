@@ -1,0 +1,6 @@
+.profile-image {
+    border: 3px solid hsl(165 75% 37% / 1);
+    border-radius: 50%;
+    height: 8rem;
+    margin: 0.5rem auto;
+}

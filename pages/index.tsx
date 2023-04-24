@@ -1,7 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import React from "react";
 
-import { Socials } from "../components/Socials";
+import { Profile } from "../components/profile/Profile";
+import { Socials } from "../components/socials/Socials";
 
 import styles from "../styles/Home.module.css";
 
@@ -18,11 +20,25 @@ const HomePage: NextPage = () => (
 
     <main className={styles.main}>
       <h1 className={styles.title}>John Vandivier</h1>
-      <p className={styles.description}>Swag, socials, and contact links!</p>
+      <p className={styles.description}>Educator. Engineer.</p>
 
+      <Profile path="/profile.jpeg" />
       <Socials />
 
       <div className={styles.grid}>
+        <a
+          href="https://ladderly.io/"
+          className={styles.card}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <h2>Ladderly.io</h2>
+          <p>
+            Interested in learning to code or accelerating career advancement in
+            tech? Check out Ladderly!
+          </p>
+        </a>
+
         <a
           href="https://codinglife-store.myshopify.com/"
           className={styles.card}
@@ -37,26 +53,13 @@ const HomePage: NextPage = () => (
         </a>
 
         <a
-          href="https://ladderly.io/"
-          className={styles.card}
-          rel="noreferrer"
-          target="_blank"
-        >
-          <h2>Ladderly.io</h2>
-          <p>
-            Interested in learning to code or accelerating you career
-            advancement in tech? Check out Ladderly!
-          </p>
-        </a>
-
-        <a
           href="https://vandivier.github.io/not-johns-linktree/portfolio"
           className={styles.card}
           rel="noreferrer"
           target="_self"
         >
-          <h2>Portfolio</h2>
-          <p>Immerse yourself in my wonderous works of code.</p>
+          <h2>Portfolio Highlights</h2>
+          <p>My four favorite GitHub projects.</p>
         </a>
 
         <a
@@ -65,8 +68,7 @@ const HomePage: NextPage = () => (
           rel="noreferrer"
           target="_blank"
         >
-          <h2>Blog</h2>
-          <p>Read my miscellaneous ramblings and learnings!</p>
+          <h2>WordPress Blog</h2>
         </a>
       </div>
     </main>

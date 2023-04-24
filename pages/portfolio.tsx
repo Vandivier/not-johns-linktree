@@ -29,13 +29,16 @@ const PortfolioPage: NextPage = () => (
 
       <div className={styles.grid}>
         <a
-          href="https://github.com/Vandivier"
+          href="https://vandivier.github.io/ladderly-slides/"
           className={styles.card}
           rel="noreferrer"
           target="_blank"
         >
-          <h2>GitHub</h2>
-          <p>Experience my passion for Open Source!</p>
+          <h2>Ladderly Slides</h2>
+          <p>
+            #LearnToCode! An open source programming curriculum, inclusive of
+            job search prep.
+          </p>
         </a>
 
         <a
@@ -52,15 +55,14 @@ const PortfolioPage: NextPage = () => (
         </a>
 
         <a
-          href="https://vandivier.github.io/ladderly-slides/"
+          href="https://github.com/Vandivier/rect"
           className={styles.card}
           rel="noreferrer"
           target="_blank"
         >
-          <h2>Ladderly Slides</h2>
+          <h2>Rect</h2>
           <p>
-            #LearnToCode! An open source programming curriculum, inclusive of
-            job search prep.
+            Transform short-form social media content into educational material.
           </p>
         </a>
 
@@ -70,10 +72,20 @@ const PortfolioPage: NextPage = () => (
           rel="noreferrer"
           target="_blank"
         >
-          <h2>Vanilla Flat White</h2>
+          <h2>Vanilla Flat White ☕</h2>
           <p>
             An assortment of microprojects in HTML, CSS, and Vanilla JavaScript.
           </p>
+        </a>
+
+        <a
+          href="https://github.com/Vandivier"
+          className={styles.card}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <h2>GitHub</h2>
+          <p>All of my other projects!</p>
         </a>
       </div>
     </main>
