@@ -22,7 +22,7 @@ const HomePage: NextPage = () => (
       <h1 className={styles.title}>John Vandivier</h1>
       <p className={styles.description}>Educator. Engineer.</p>
 
-      <Profile path="/profile.jpeg" />
+      <Profile path="/not-johns-linktree/profile.jpeg" />
       <Socials />
 
       <div className={styles.grid}>
