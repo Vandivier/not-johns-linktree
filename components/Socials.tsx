@@ -51,7 +51,6 @@ const SocialItemWithCustomIcon: FunctionComponent<{ data: CustomIconData }> = ({
   data,
 }) => (
   <li
-    key={data.url}
     style={{
       alignItems: "center",
       display: "flex",
@@ -76,7 +75,7 @@ const SocialItemWithCustomIcon: FunctionComponent<{ data: CustomIconData }> = ({
 );
 
 const SocialItemFromString: FunctionComponent<{ url: string }> = ({ url }) => (
-  <li key={url}>
+  <li>
     <StyledSocialIcon url={url} target="_blank" />
   </li>
 );
@@ -85,9 +84,9 @@ export const Socials = () => (
   <ul className={styles["social-list-wrapper"]}>
     {orderedSocials.map((data) =>
       typeof data === "string" ? (
-        <SocialItemFromString url={data} />
+        <SocialItemFromString key={data} url={data} />
       ) : (
-        <SocialItemWithCustomIcon data={data} />
+        <SocialItemWithCustomIcon key={data.url} data={data} />
       )
     )}
   </ul>
