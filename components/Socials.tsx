@@ -26,8 +26,8 @@ const orderedSocials = [
 export const Socials = () => (
   <ul className={styles["social-list-wrapper"]}>
     {orderedSocials.map((url) => (
-      <li>
-        <StyledSocialIcon key={url} url={url} target="_blank" />
+      <li key={url}>
+        <StyledSocialIcon url={url} target="_blank" />
       </li>
     ))}
   </ul>
