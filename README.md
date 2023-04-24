@@ -12,7 +12,7 @@ Very similar to [basic-nextjs-portfolio](https://github.com/Vandivier/basic-next
 
 # use
 
-1. Install using `npm i` and run a local deployment server using `npm start`.
+1. Install using `yarn` and run a local deployment server using `yarn start`.
 
 2. Update the site as you see fit.
 
@@ -22,7 +22,7 @@ Very similar to [basic-nextjs-portfolio](https://github.com/Vandivier/basic-next
 
    3. Update the social media icons appropriately, convieniently located within the `Socials.tsx` component.
 
-3. Deploy to GitHub Pages using `npm run deploy`. Ensure your repository settings have GitHub Pages enabled to obtain a public URL.
+3. Deploy to GitHub Pages using `yarn deploy`. Ensure your repository settings have GitHub Pages enabled to obtain a public URL.
 
 # development
 
