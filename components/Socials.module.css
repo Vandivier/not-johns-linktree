@@ -1,7 +1,9 @@
 .social-list-wrapper {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 0;
   padding: 0;
+  width: 90%;
 }
 
 .social-list-wrapper li {

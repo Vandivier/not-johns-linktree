@@ -13,6 +13,7 @@ const StyledSocialIcon: FunctionComponent<SocialIconProps> = (props) => (
 const orderedSocials = [
   "https://www.youtube.com/c/JohnVandivier",
   "https://www.tiktok.com/@johnvandivier",
+  "https://optimality.substack.com/",
   "https://twitter.com/johnvandivier",
   "https://mastodon.online/@johnvandivier",
   "https://twitch.tv/johnvandivier",
