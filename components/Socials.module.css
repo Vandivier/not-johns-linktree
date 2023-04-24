@@ -1,3 +1,12 @@
+.social-circle {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  width: 32px;
+}
+
 .social-list-wrapper {
   display: flex;
   flex-wrap: wrap;
