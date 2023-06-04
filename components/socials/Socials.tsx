@@ -22,7 +22,7 @@ const StyledSocialIcon: FunctionComponent<SocialIconProps> = (props) => (
 );
 
 const orderedSocials: (string | CustomIconData)[] = [
-  "https://www.youtube.com/c/JohnVandivier",
+  "https://www.youtube.com/c/JohnVandivier?sub_confirmation=1",
   "https://www.tiktok.com/@johnvandivier",
   {
     backgroundColor: "#FF681A",
