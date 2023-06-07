@@ -40,6 +40,39 @@ const HomePage: NextPage = () => (
         </a>
 
         <a
+          href="https://join.robinhood.com/johnv-19a478e6"
+          className={styles.card}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <h2>Robinhood</h2>
+          <p>Up to $200 in free stock!</p>
+        </a>
+
+        <a
+          href="https://ladderly.io/"
+          className={styles.card}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <h2>Autopilot</h2>
+          <p>
+            Pair with Robinhood to automatically copy high-performing investing
+            strategies!
+          </p>
+        </a>
+
+        <a
+          href="https://heybenny.com/refer/lQXG5B9"
+          className={styles.card}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <h2>Benny ESPP</h2>
+          <p>Don't miss out on this lucrative employee benefit!</p>
+        </a>
+
+        <a
           href="https://codinglife-store.myshopify.com/"
           className={styles.card}
           rel="noreferrer"
