@@ -50,7 +50,7 @@ const HomePage: NextPage = () => (
         </a>
 
         <a
-          href="https://ladderly.io/"
+          href="https://invite.joinautopilot.com/nFFY"
           className={styles.card}
           rel="noreferrer"
           target="_blank"
@@ -69,7 +69,7 @@ const HomePage: NextPage = () => (
           target="_blank"
         >
           <h2>Benny ESPP</h2>
-          <p>Don't miss out on this lucrative employee benefit!</p>
+          <p>Don`&apos;`t miss out on this lucrative employee benefit!</p>
         </a>
 
         <a
