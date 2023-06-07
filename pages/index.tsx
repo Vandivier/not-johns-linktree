@@ -69,7 +69,7 @@ const HomePage: NextPage = () => (
           target="_blank"
         >
           <h2>Benny ESPP</h2>
-          <p>Don`&apos;`t miss out on this lucrative employee benefit!</p>
+          <p>Don{"'"}t miss out on this lucrative employee benefit!</p>
         </a>
 
         <a
