@@ -64,19 +64,6 @@ const HomePage: NextPage = () => (
         </a>
 
         <a
-          href="https://codinglife-store.myshopify.com/"
-          className={styles.card}
-          rel="noreferrer"
-          target="_blank"
-        >
-          <h2>#CodingLife Store</h2>
-          <p>
-            Experience a brand dedicated to inspiring conversations around
-            learning to code!
-          </p>
-        </a>
-
-        <a
           href="https://vandivier.github.io/not-johns-linktree/portfolio"
           className={styles.card}
           rel="noreferrer"
