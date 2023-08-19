@@ -53,19 +53,6 @@ const HomePage: NextPage = () => (
         </a>
 
         <a
-          href="https://invite.joinautopilot.com/nFFY"
-          className={styles.card}
-          rel="noreferrer"
-          target="_blank"
-        >
-          <h2>Autopilot</h2>
-          <p>
-            Pair with Robinhood to automatically copy high-performing investing
-            strategies!
-          </p>
-        </a>
-
-        <a
           href="https://heybenny.com/refer/lQXG5B9"
           className={styles.card}
           rel="noreferrer"
