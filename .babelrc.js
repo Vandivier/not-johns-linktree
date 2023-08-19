@@ -1,7 +1,7 @@
 const prod = process.env.NODE_ENV === "production";
 
 const env = {
-  "process.env.BACKEND_URL": prod ? "/basic-nextjs-portfolio" : "",
+  "process.env.NEXT_PUBLIC_ASSET_PREFIX": prod ? "/not-johns-linktree" : "",
 };
 
 module.exports = {

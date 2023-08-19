@@ -15,14 +15,17 @@ const HomePage: NextPage = () => (
         name="description"
         content="A collection of links related to John Vandivier."
       />
-      <link rel="icon" href="/not-johns-linktree/favicon.png" />
+      <link
+        rel="icon"
+        href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/favicon.png`}
+      />
     </Head>
 
     <main className={styles.main}>
       <h1 className={styles.title}>John Vandivier</h1>
       <p className={styles.description}>Educator. Engineer.</p>
 
-      <Profile path="/not-johns-linktree/profile.jpeg" />
+      <Profile path={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/profile.jpeg`} />
       <Socials />
 
       <div className={styles.grid}>
