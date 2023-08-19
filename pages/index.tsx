@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import React from "react";
 
 import { Profile } from "../components/profile/Profile";
@@ -96,7 +97,18 @@ const HomePage: NextPage = () => (
       </div>
     </main>
 
-    <footer className={styles.footer}>Powered by Developers Like You!</footer>
+    <footer className={styles.footer}>
+      <p>Powered by Developers Like You!</p>
+      <p style={{ marginTop: "0" }}>
+        <Link
+          href="https://github.com/Vandivier/not-johns-linktree"
+          style={{ fontWeight: "bold" }}
+          target="_blank"
+        >
+          Like this website? Check out the source code here!
+        </Link>
+      </p>
+    </footer>
   </div>
 );
 
