@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 import { Profile } from "../components/profile/Profile";
+import { QrCodeToggle } from "../components/QrCode";
 import { Socials } from "../components/socials/Socials";
 
 import styles from "../styles/Home.module.css";
@@ -26,7 +27,11 @@ const HomePage: NextPage = () => (
       <h1 className={styles.title}>John Vandivier</h1>
       <p className={styles.description}>Educator. Engineer.</p>
 
-      <Profile path={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/profile.jpeg`} />
+      <QrCodeToggle>
+        <Profile
+          path={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/profile.jpeg`}
+        />
+      </QrCodeToggle>
       <Socials />
 
       <div className={styles.grid}>
