@@ -49,6 +49,19 @@ const HomePage: NextPage = () => (
         </a>
 
         <a
+          href="https://arias-tale-rpg.vercel.app/"
+          className={styles.card}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <h2>Aria{"'"}s Tale</h2>
+          <p>
+            Aria{"'"}s Tale is an emergent social RPG and an experiment in
+            generative AI!
+          </p>
+        </a>
+
+        <a
           href="https://join.robinhood.com/johnv-19a478e6"
           className={styles.card}
           rel="noreferrer"
