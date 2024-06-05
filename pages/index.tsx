@@ -62,6 +62,16 @@ const HomePage: NextPage = () => (
         </a>
 
         <a
+          href="https://usemassive.com/?via=john"
+          className={styles.card}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <h2>Massive AI</h2>
+          <p>Automatically apply to jobs and get interviews!</p>
+        </a>
+
+        <a
           href="https://join.robinhood.com/johnv-19a478e6"
           className={styles.card}
           rel="noreferrer"
