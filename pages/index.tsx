@@ -82,16 +82,6 @@ const HomePage: NextPage = () => (
         </a>
 
         <a
-          href="https://heybenny.com/refer/lQXG5B9"
-          className={styles.card}
-          rel="noreferrer"
-          target="_blank"
-        >
-          <h2>Benny ESPP</h2>
-          <p>Don{"'"}t miss out on this lucrative employee benefit!</p>
-        </a>
-
-        <a
           href="https://vandivier.github.io/not-johns-linktree/portfolio"
           className={styles.card}
           rel="noreferrer"
