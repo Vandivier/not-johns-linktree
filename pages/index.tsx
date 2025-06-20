@@ -72,16 +72,6 @@ const HomePage: NextPage = () => (
         </a>
 
         <a
-          href="https://join.robinhood.com/johnv-19a478e6"
-          className={styles.card}
-          rel="noreferrer"
-          target="_blank"
-        >
-          <h2>Robinhood</h2>
-          <p>Up to $200 in free stock!</p>
-        </a>
-
-        <a
           href="https://vandivier.github.io/not-johns-linktree/portfolio"
           className={styles.card}
           rel="noreferrer"
