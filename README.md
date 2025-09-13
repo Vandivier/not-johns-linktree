@@ -6,7 +6,7 @@ This social home site is [built using Next.js](https://github.com/vercel/next.js
 
 This social home site is made to deploy to GitHub Pages, a forever-free static site hosting service from GitHub!
 
-View the live site [here](https://vandivier.github.io/not-johns-linktree/).
+View [the live site here](https://vandivier.github.io/not-johns-linktree/).
 
 Very similar to [basic-nextjs-portfolio](https://github.com/Vandivier/basic-nextjs-portfolio), but with a few more bells and whistles related so social media. For example, this template uses [react-social-icons](https://github.com/jaketrent/react-social-icons).
 
