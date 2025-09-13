@@ -87,7 +87,7 @@ const HomePage: NextPage = () => (
           rel="noreferrer"
           target="_blank"
         >
-          <h2>WordPress Blog</h2>
+          <h2>Personal Blog</h2>
         </a>
       </div>
     </main>
