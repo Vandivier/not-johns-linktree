@@ -10,7 +10,7 @@ View the live site [here](https://vandivier.github.io/not-johns-linktree/).
 
 Very similar to [basic-nextjs-portfolio](https://github.com/Vandivier/basic-nextjs-portfolio), but with a few more bells and whistles related so social media. For example, this template uses [react-social-icons](https://github.com/jaketrent/react-social-icons).
 
-# use
+## use
 
 1. Install using `yarn` and run a local deployment server using `yarn start`.
 
@@ -24,6 +24,6 @@ Very similar to [basic-nextjs-portfolio](https://github.com/Vandivier/basic-next
 
 3. Deploy to GitHub Pages using `yarn deploy`. Ensure your repository settings have GitHub Pages enabled to obtain a public URL.
 
-# development
+## development
 
 Feel free to create an issue or a PR for any reason.
